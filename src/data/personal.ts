@@ -9,9 +9,9 @@ export const personal = {
   email: 'roshanhamidnki@gmail.com',
   phone: '+91 8078053314',
   location: 'Kozhikode, Kerala, India',
-  github: '', // TODO: add your GitHub profile URL, e.g. https://github.com/username
+  github: 'https://github.com/Roshan-Hamid',
   linkedin: 'https://www.linkedin.com/in/roshan-roshanhamid-6571ab31b',
-  resume: '/docs/Roshan-Hamid-Resume.pdf', // replace the file in public/docs/ with your latest CV
+  resume: `${import.meta.env.BASE_URL}docs/Roshan-Hamid-Resume.pdf`, // replace the file in public/docs/ with your latest CV
   /** Availability badge. Set `show: false` to hide it. */
   availability: {
     show: true,
